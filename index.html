@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amina Islam Desha — 3D Artist Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Cinzel:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+
+  <nav>
+    <a class="nav-logo" href="#home" onclick="showMainSite()">Amina Islam Desha</a>
+    <ul class="nav-links">
+      <li><a href="#home" class="active" id="nav-home" onclick="showMainSite()">Home</a></li>
+      <li><a href="#about" id="nav-about" onclick="showMainSite()">About</a></li>
+      <li><a href="#work" id="nav-work" onclick="showMainSite()">Work</a></li>
+      <li><a href="#contact" class="nav-contact" id="nav-contact-btn" onclick="showContact(event)">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="toast" class="toast"></div>
+
+ 
+  <div id="main-site">
+
+   
+    <section id="home">
+      <div class="hero-cat-img">
+        <img src="project pics/cat_head.png">
+      </div>
+    </section>
+
+  
+    <section id="about">
+      <div class="pa-left">
+        <div class="pa-photo"><img src="project pics/5f17e64d55771ec2865feac2f43cbdf5.jpg"></div>
+        <div class="pa-hello">Hello!<br><em>I'm Amina.</em></div>
+        <p class="pa-bio">
+          Hi! I'm Amina Islam Desha, a 3D modeling artist and CSE student at
+          Varendra University. I developed a strong passion for digital sculpture
+          and product visualization alongside my studies. I enjoy creating detailed
+          3D objects and environments from concept all the way to a polished render.
+        </p>
+      </div>
+
+      <div class="pa-mid">
+        <div class="pa-section">
+          <div class="pa-col-title">Education.</div>
+          <div class="pa-entry">
+            <h4>Varendra University</h4>
+            <p>B.Sc. Computer Science &amp; Engineering</p>
+          </div>
+          <div class="pa-entry">
+            <h4>3D Art Self-Study</h4>
+            <p>Online courses, tutorials &amp; daily practice in Blender</p>
+          </div>
+        </div>
+        <div class="pa-section">
+          <div class="pa-entry">
+            <h4>3D Modeling Practice</h4>
+            <p>— Hard surface &amp; organic modeling<br>
+              — Product visualization renders<br>
+              — Scene composition &amp; lighting</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pa-right">
+        <div class="pa-section">
+          <div class="pa-col-title">Recognition.</div>
+          <div class="pa-rec">
+            <div>
+              <h4>3D Modeling Portfolio</h4>
+              <p>Growing collection of digital sculptures &amp; product renders </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pa-section">
+          <div class="pa-col-title">Skills.</div>
+          <div class="pa-skill-cols">
+            <div class="pa-skill-group">
+              <h5>Hard Skills</h5>
+              <ul>
+                <li>3D Modeling</li>
+                <li>Texturing</li>
+                <li>Rendering</li>
+                <li>Lighting</li>
+                <li>HTML / CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="pa-skill-group">
+              <h5>Software</h5>
+              <ul>
+                <li>Blender</li>
+                <li>Photoshop</li>
+                <li>Substance Painter</li>
+                <li>Figma</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="work">
+      <div class="work-header">
+        <div class="section-label">Content.</div>
+        <div class="section-sub">Selected projects &amp; renders</div>
+      </div>
+
+      <div class="work-grid">
+        <div class="work-item">
+          <div class="work-thumb">
+            <div class="work-thumb-placeholder">
+              <img src="project pics/3.png">
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-num">01</div>
+            <h3>headphone</h3>
+          </div>
+        </div>
+
+        <div class="work-item">
+          <div class="work-thumb">
+            <div class="work-thumb-placeholder">
+              <img src="project pics/samsung.png">
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-num">02</div>
+            <h3>samsung smartphone</h3>
+          </div>
+        </div>
+
+        <div class="work-item">
+          <div class="work-thumb">
+            <div class="work-thumb-placeholder">
+              <img src="project pics/Untitled.png">
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-num">03</div>
+            <h3>Viking Shield</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-grid-bottom">
+
+        <div class="work-item">
+          <div class="work-thumb">
+            <div class="work-thumb-placeholder">
+              <video autoplay muted loop playsinline>
+                <source src="project pics/0001-0115.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="work-info">
+            <p>3D Animation Blender 2025</p>
+          </div>
+        </div>
+
+        <div class="work-item">
+          <div class="work-thumb">
+            <div class="work-thumb-placeholder">
+              <video autoplay muted loop playsinline>
+                <source src="project pics/1.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="work-info">
+            <p>Product Visualisation 2024</p>
+          </div>
+        </div>
+
+        <div class="work-item">
+          <div class="work-thumb">
+            <div class="work-thumb-placeholder">
+              <video autoplay muted loop playsinline>
+                <source src="project pics/0001-0160.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="work-info">
+            <p>responsive light movement animation 2025</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+
+  <section id="contact">
+    <form class="contact-form" onsubmit="event.preventDefault(); handleContact();">
+
+      <h2>Contact Me</h2>
+
+      <input type="text" id="f-name" placeholder="Your Name" required>
+
+      <input type="email" id="f-email" placeholder="Your Email" required>
+
+      <textarea id="f-message" placeholder="Your Message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+  </section>
+
+
+  <footer>
+    <div class="footer-name">AMINA ISLAM <span>DESHA</span></div>
+    <div class="footer-name">varendra univarsity</div>
+    <div class="footer-links">
+
+      <a href="www.linkedin.com/in/amina-islam-disha-473921315" target="_blank">
+        <img src="icons/linkedin.png" alt="LinkedIn">
+      </a>
+
+      <a href="https://nyoko5.artstation.com/" target="_blank">
+        <img src="icons/behance.png" alt="Behance">
+      </a>
+
+      <a href="https://instagram.com" target="_blank">
+        <img src="icons/instagram-1-svgrepo-com.svg" alt="Instagram">
+      </a>
+
+      <a href="https://www.facebook.com/profile.php?id=61584528861562" target="_blank">
+        <img src="icons/facebook-svgrepo-com.svg" alt="facebook">
+      </a>
+
+      <a href="nyoko5.artstation.com" target="_blank">
+        <img src="icons/artstation.png" alt="artstation">
+      </a>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
